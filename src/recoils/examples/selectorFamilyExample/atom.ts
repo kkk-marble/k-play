@@ -1,12 +1,12 @@
-import { atom } from 'recoil'
+import { atom } from 'recoil';
 
 export type User = {
-  name: string
-  age: number
-}
+  name: string;
+  age: number;
+};
 const userAtom = atom<User[]>({
   key: 'selector-family-example',
-  default: []
-})
+  default: [],
+});
 
-export default userAtom
+export default userAtom;

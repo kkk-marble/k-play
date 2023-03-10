@@ -1,8 +1,8 @@
-import { atom } from 'recoil'
+import { atom } from 'recoil';
 
 const basic = atom({
   key: 'basic',
-  default: ''
-})
+  default: '',
+});
 
-export default basic
+export default basic;
