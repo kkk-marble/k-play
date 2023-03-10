@@ -1,10 +1,8 @@
-import { atom } from 'recoil';
-
-
+import { atom } from 'recoil'
 
 const secondAtom = atom<number>({
-    key: 'selector-example',
-    default: 0
-});
+  key: 'selector-example',
+  default: 0
+})
 
-export default secondAtom;
+export default secondAtom
